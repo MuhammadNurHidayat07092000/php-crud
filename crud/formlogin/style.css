@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(gambar/1.jpg) no-repeat;
+    /* background-position: ; */
+    background-size: cover;
+    color: lightblue;
+}
+
+h1 {
+    text-align: left;
+}
+
+.boxlogin {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: lightgreen;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+}
+
+.button {
+    width: 35%;
+    background: none;
+    border: 2px solid;
+    color: greenyellow;
+    padding: 5px;
+}
